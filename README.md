@@ -4,7 +4,7 @@
 ## Extract, Transform, & Load 
 Github Repository: https://github.com/annapettigrew/project-02-group-06 <br />  
 Team Members <br />
-Anna Pettigrew: insert link here <br />   
+Anna Pettigrew: www.linkedin.com/in/anna-pettigrew <br />   
 Ewansiha Simmons:  https://www.linkedin.com/in/ewansiha-simmons-5b7b9a1/ <br />  
 
 
