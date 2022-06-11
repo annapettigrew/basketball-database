@@ -34,7 +34,7 @@ The merged dataset is very useful for NBA enthusiasts and data scientists becaus
 ## DATA EXTRACTION PROCESS 
  <p align="left"><br />
 1.  Downloaded Database 1 and extracted data from zip file <br />
-2.  Reviewed Tables and columnsincluded in dataset via Pandas and Jupyter Notebook to determine which were most needed       for NBA Player statistics by Year. <br />
+2.  Reviewed Tables and columns included in dataset via Pandas and Jupyter Notebook to determine which were most needed       for NBA Player statistics by Year. <br />
 3.  Downloaded Database 2 and reviewed the csv file to determin which columns were needed for combined dataset. <br />
 </p>  
 
