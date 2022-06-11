@@ -1,7 +1,7 @@
 # <NBA Player Statistics>
 
 
-## Extract, Transform, & Load 
+## EXTRACT, TRANSFORM, & LOAD - NBA PLAYER STAISTICAL DATA 
 Github Repository: https://github.com/annapettigrew/project-02-group-06 <br />  
 Team Members <br />
 Anna Pettigrew: www.linkedin.com/in/anna-pettigrew <br />   
@@ -12,7 +12,7 @@ Ewansiha Simmons:  https://www.linkedin.com/in/ewansiha-simmons-5b7b9a1/ <br />
 <p align="left">
  <br />
 For this project, we decided to utilize two databases from Kaggle.com. <br />
-  Database 1: https://www.kaggle.com/datasets/wyattowalsh/basketball <br />
+  Database 1: https://www.kaggle.com/datasets/wyattowalsh/basketball (large zip file linked in Resources)<br />
   Database 2: https://www.kaggle.com/datasets/justinas/nba-players-data <br />
   Database 1 is in a SQLite format and Database 2 is in a CSV format.<br />
 </p>
@@ -50,23 +50,30 @@ Dependencies:
   
 1.   Created an engine to connect to the baketball.sqlite db 
 2.   Read in  player_attributes, player_salary, and draft tables from the SQLite file 
-3.   checked the tables to make sure they were imported properly
+3.   Checked the tables to make sure they were imported properly
 4.   Merged the columns from each table into a new dataframe and verified they were merged properly![Basketball_JN_1](https://user-images.githubusercontent.com/99496137/173203386-82bc6603-aaae-466f-bdf1-f04219993872.png)
 5.    Created an engine to connect to the NBA_PLAYERS_1996-2019.csv![Basketball_JN_2](https://user-images.githubusercontent.com/99496137/173203802-44b23076-7ff5-44e8-b8e6-5fc60a147314.png)
 6.   Reorganized the columns and renamed columns
 7.   Set Index for table to 'PLAYER NAME' 
 8.   Dropped other columns in dataframe that were deemed unnecessary for final database.
 9.   Verified columns reflected changes by printing dataframe
-10.  Filtered data for'2020-21'Season and created new season_db ![Basketball_JN_4](https://user-images.githubusercontent.com/99496137/173205978-c1ea51be-f92b-4d69-a86f-7f063a2f7658.png)
-</p>
+10.  Filtered data for'2020-21'Season and created new season_db <br /> </p>
+![Basketball_JN_4](https://user-images.githubusercontent.com/99496137/173205978-c1ea51be-f92b-4d69-a86f-7f063a2f7658.png)<br />
+
  
 ## DATA LOADING PROCESS
  <p align="left"> 
 1.  Created 'new_basketball_db' in PgAdmin with no tables<br />
 2.  Used rds_connection_string in Jupyter Notebook to insert 'clean_basketball_db' table and 'season_db' tables into 'new_basketball_db' <br />
-3.  Reviewed Tables in PgAdmin to confirm data matched tables in Jupyter Notebook (insert picture)<br />
-</p>  
+3.  Reviewed Tables in PgAdmin to confirm data matched tables in Jupyter Notebook <br /> </p> 
 
+## FINDINGS
+<p align="left"> 
+1.  When constructing dataframes in Jupyter Notebook, it was helpful to rename columns before setting the table index to reduce run errors.<br />
+2.  Created new dataframe after each drop, rename, other changes to eliminate run errors and not have to restart kernel in Jupyter Notebook. <br />
+3.  When editing columns, It is helpful to print the dataframe to verify the accuracy of changes.<br />
+</p> 
+![Screen Shot 2022-06-11 at 7 09 52 PM](https://user-images.githubusercontent.com/99496137/173208347-5b7a7d1f-fce2-4dba-a2bd-34ae24af395c.png)
 
 ## License
 <p align="left"> 
