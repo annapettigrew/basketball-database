@@ -37,8 +37,9 @@ The merged dataset is very useful for NBA enthusiasts and data scientists becaus
 2.  Reviewed Tables and columnsincluded in dataset via Pandas and Jupyter Notebook to determine which were most needed       for NBA Player statistics by Year. <br />
 3.  Downloaded Database 2 and reviewed the csv file to determin which columns were needed for combined dataset. <br />
 </p>  
+
 ## DATA TRANSFORMATION PROCESS 
-</p><br />
+<p align="left"><br />
 Utilizing Jupyter Notebook Python 3(ipykernel)
 Dependencies:
   sqlalchemy
