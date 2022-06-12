@@ -11,7 +11,7 @@ Ewansiha Simmons:  https://www.linkedin.com/in/ewansiha-simmons-5b7b9a1/ <br />
 ## PROJECT DESCRIPTION
 <p align="left">
  <br />
-For this project, we decided to utilize two databases from Kaggle.com. <br />
+For this project, we utilized two databases from Kaggle.com. <br />
   Database 1: https://www.kaggle.com/datasets/wyattowalsh/basketball (large zip file linked in Resources)<br />
   Database 2: https://www.kaggle.com/datasets/justinas/nba-players-data <br />
   Database 1 is in a SQLite format and Database 2 is in a CSV format.<br />
