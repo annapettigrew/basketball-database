@@ -65,15 +65,17 @@ Dependencies:
  <p align="left"> 
 1.  Created 'new_basketball_db' in PgAdmin with no tables<br />
 2.  Used rds_connection_string in Jupyter Notebook to insert 'clean_basketball_db' table and 'season_db' tables into 'new_basketball_db' <br />
-3.  Reviewed Tables in PgAdmin to confirm data matched tables in Jupyter Notebook <br /> </p> 
+3.  Reviewed Tables in PgAdmin to confirm data matched tables in Jupyter Notebook <br /> <br />
 
+![Screen Shot 2022-06-11 at 7 09 52 PM](https://user-images.githubusercontent.com/99496137/173208753-b7918996-2132-428e-8ceb-a6450cd83fb9.png)</p> 
 ## FINDINGS
 <p align="left"> 
 1.  When constructing dataframes in Jupyter Notebook, it was helpful to rename columns before setting the table index to reduce run errors.<br />
 2.  Created new dataframe after each drop, rename, other changes to eliminate run errors and not have to restart kernel in Jupyter Notebook. <br />
-3.  When editing columns, It is helpful to print the dataframe to verify the accuracy of changes.<br />
-</p> 
-![Screen Shot 2022-06-11 at 7 09 52 PM](https://user-images.githubusercontent.com/99496137/173208347-5b7a7d1f-fce2-4dba-a2bd-34ae24af395c.png)
+3.  When editing columns, It is helpful to print the dataframe to verify the accuracy of changes.<br /> 
+
+
+
 
 ## License
 <p align="left"> 
