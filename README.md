@@ -27,7 +27,7 @@ Information included in the final merged database are: 	<br />
    PLAYER NAME, DRAFT YEAR,	NUMBER OVERALL PICK, TEAM NAME FROM,	ORGANIZATION FROM,	TEAM NAME,	SALARY,	HEIGHT,	WEIGHT,	JERSEY      NUMBER,	POSITION,	PTS,	AST,	REB,	PIE,	GAMES PLAYED,	POINTS,	REBOUNDS,	ASSISTS,	NET RATING,	SEASON
 </p>
 <p align="left">
-The merged dataset is very useful for NBA enthusiasts and data scientists because it can be sorted by player, season, team, draft year, college, or any of the other various statistics included in the merged dataset.  In addition, utilizing the code provided, it can be manipulated further from the raw data with additional categories not included in the final dataset.  There are _ rows and _ columns in the final merged database.
+The merged dataset is very useful for NBA enthusiasts and data scientists because it can be sorted by player, season, team, draft year, college, or any of the other various statistics included in the merged dataset.  In addition, utilizing the code provided, it can be manipulated further from the raw data with additional categories not included in the final dataset.  There are 302 rows and 21 columns in the final merged database.
 </p>
 
 
