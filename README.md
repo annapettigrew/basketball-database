@@ -1,7 +1,7 @@
 # <NBA Player Statistics>
 
 
-## EXTRACT, TRANSFORM, & LOAD - NBA PLAYER STAISTICAL DATA 
+## EXTRACT, TRANSFORM, & LOAD - NBA PLAYER STATISTICAL DATA 
 Github Repository: https://github.com/annapettigrew/project-02-group-06 <br />  
 Team Members <br />
 Anna Pettigrew: www.linkedin.com/in/anna-pettigrew <br />   
